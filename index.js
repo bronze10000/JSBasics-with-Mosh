@@ -1,14 +1,9 @@
-//  Movies array exercise
+const test = {
+    firstName: 'James',
+    lastName: 'Kim',
+    age: 48
+}
 
-const Movies = [
-    {title: 'a', year: 2018, rating: 4.5},
-    {title: 'b', year: 2018, rating: 4.7},
-    {title: 'c', year: 2018, rating: 3},
-    {title: 'd', year: 2017, rating: 4.5}
-]
+test.age = 40;
 
-// all movies in 2018 with rating > 4
-// sort them by their rating
-// descending order 
-// pick their title
-
+console.log(test);
